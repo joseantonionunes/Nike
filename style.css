@@ -6,7 +6,7 @@
 body {
     background-color: rgb(243, 243, 243);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 8000px;
+    /* height: 8000px; */
 }
 nav {
     text-align: center;
@@ -153,6 +153,7 @@ del {
 }
 
  /* slide*/
+
 .anuncio {
     width: 90%;
     padding-left: 60px;
@@ -200,14 +201,71 @@ table {
 } 
 
 .lista {
-    font-size: 0.8;
+    font-size: 1.1em;
     color: gray;
+    padding-bottom: 2px;
+}
+
+.lista:hover {
+    color: black;
 }
 
 .l {
-    display: inline-flexbox;
+    display: inline-flex;
+   margin: 10px 170px;
 }
 
 .h5 {
-    display: block;
+    font-size: 1.2em;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+}
+
+.rodape {
+    display: inline-flex;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+.ajuda {
+    font-size: 1em;
+    color: white;
+    margin-left: 100px;
+}
+
+.cor {
+    
+    color: white;
+    font-size: 0.8em;
+    padding-bottom: 1px;
+    margin-left: 100px;
+   margin-right: 20px;
+}
+
+.cor:hover {
+    color: grey;
+}
+
+hr {
+    margin: 5px 30px;
+}
+
+.redes {
+    display: inline-flex;
+    margin: 5px;
+}
+
+.sociais {
+    color: white;
+    font-size: 0.8em;
+    padding-bottom: 1px;
+    margin: 5px 0.1px;
+}
+
+.centrealizar-redes {
+    margin-left: 80px;
 }
