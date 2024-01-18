@@ -51,6 +51,10 @@ p {
     font-size: 0.8em;
 }
 
+.tamanho:hover {
+    color: grey;
+}
+
 /* Segundo cabeçalho */
 
 .nike {
